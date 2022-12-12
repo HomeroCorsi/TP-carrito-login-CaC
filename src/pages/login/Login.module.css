@@ -1,0 +1,105 @@
+.logo{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background-light);
+  color: #C9BEB4;
+}
+  .footer {
+    background: linear-gradient(
+      199deg,
+      var(--color-secondary) 0%,
+      var(--color-background) 100%
+    );
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+  }
+
+.login {
+  min-width: 80rem;
+  min-height: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background);  
+}
+
+.login h1 {
+  font-size: 35px;
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 25px;
+}
+
+.login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 600px;
+  height: 450px;
+  padding: 5rem;
+  border-radius: 5rem;
+  background-color: var(--color-background-light);
+}
+
+.login input{
+  width: 525px;
+  height: 75px;
+  margin: 10px 0px 0px 0px;
+  padding: 25px;
+  border-radius: 20px;
+  color: #C9BEB4;
+  border: none;
+}
+
+.login button{
+  
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color: var(--color-button);
+}
+.login button:hover{
+  background-color: var(--color-button-light);
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+  .login form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .login form {
+    width: 100%;
+  }
+  .facebook  {
+    font-size: 9.25px;
+  height: 50px;
+  width: 165px;
+  }
+  .google  {
+    font-size: 9.25px;
+  height: 50px;
+  width: 165px;
+  }
+  .login input{
+    width: 100%;
+    height: 75px;
+  }
+}

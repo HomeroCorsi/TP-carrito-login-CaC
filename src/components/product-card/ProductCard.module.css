@@ -1,0 +1,98 @@
+.card {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  background-color: var(--color-background-light);
+  height: 200px;
+  width: 650px;
+  margin: 20px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card h4 {
+  width: 100px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.card h5 {
+  font-size: 2rem;
+  margin-right: 40px;
+}
+
+/* .minus{
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 2px
+  ;min-width: 35px;
+  text-align: center;
+} */
+.cantidad{  cursor: pointer;
+  display: inline-block;
+  vertical-align: center;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  padding-top: 2.7rem;
+  
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+div {
+  text-align: center;
+}
+.button:hover{
+  background-color: #260101 !important;
+}
+
+/*Prevent text selection*/
+span{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin:3rem
+}
+input{  
+  border: 0;
+  width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:disabled{
+  background-color:white;
+}
+       
